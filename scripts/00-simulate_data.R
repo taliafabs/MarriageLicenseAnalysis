@@ -1,11 +1,11 @@
 #### Preamble ####
-# Purpose: Simulates Toronto Marriage License data
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Simulates Toronto marriage data
+# Author: Talia Fabregas, Bingxu Li, Claire Ma, Yuxin Sun, Ruikang Wang
+# Date: 19 September 2024
+# Contact: talia.fabregas@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: None
+# Any other information needed? No
 
 
 #### Workspace setup ####
