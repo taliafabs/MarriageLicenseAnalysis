@@ -1,5 +1,5 @@
 #### Preamble ####
-# Purpose: Simulates... [...UPDATE THIS...]
+# Purpose: Simulates Toronto Marriage License data
 # Author: Rohan Alexander [...UPDATE THIS...]
 # Date: 11 February 2023 [...UPDATE THIS...]
 # Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
@@ -10,10 +10,16 @@
 
 #### Workspace setup ####
 library(tidyverse)
-# [...UPDATE THIS...]
+
+start_date <- as.Date("2019-01-01")
+end_date <- as.Date("2023-12-31")
+set.seed(304)
 
 #### Simulate data ####
-# [...ADD CODE HERE...]
+simulated_data <- tibble(
+  date = as.Date(start_date + round(runif(1, 0, as.numeric(end_date - start_date)))),
+  num_marriages = rpois(n = 100, lambda = 15)
+)
 
 
 
