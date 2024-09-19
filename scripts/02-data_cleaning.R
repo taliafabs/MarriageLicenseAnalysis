@@ -22,10 +22,5 @@ clean_data <-
   mutate(date = lubridate::ymd(paste(year, month, "01", sep = "-"))
          )
 
-# make a graph
-# marriage_license_trends <- clean_data |>
-#                             ggplot(aes(x = date, y = marriage_licenses)) +
-#                             geom_point()
-
 #### Save data ####
-write_csv(clean_data, "outputs/data/analysis_data.csv")
+write_csv(clean_data, "data/analysis_data/marriage_data.csv")
