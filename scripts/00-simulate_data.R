@@ -1,6 +1,6 @@
 #### Preamble ####
 # Purpose: Simulates Toronto marriage data
-# Author: Talia Fabregas, Bingxu Li, Claire Ma, Yuxin Sun, Ruikang Wang
+# Author: Talia Fabregas
 # Date: 19 September 2024
 # Contact: talia.fabregas@mail.utoronto.ca
 # License: MIT
