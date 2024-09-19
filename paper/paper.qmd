@@ -34,7 +34,7 @@ The remainder of this paper is structured as follows. @sec-data....
 
 # Data {#sec-data}
 
-We obtained our data from Open Data Toronto. It includes the number of marriages every month at popular city-owned venues in Toronto. 
+We obtained our data from Open Data Toronto. It includes the number of marriages every month at popular city-owned venues in Toronto [@weddingdatasource].
 
 (@fig-marriages1) illustrates how the COVID-19 pandemic impacted the Toronto wedding industry. 
 
